@@ -1,24 +1,24 @@
-GÓC LỚP 12 — BẢN NÂNG CẤP CHUYÊN NGHIỆP
+GÓC LỚP 12 — BẢN MỞ RỘNG
 
 CÁCH CHẠY
-1. Giải nén toàn bộ thư mục.
-2. Mở index.html bằng trình duyệt để xem website.
-3. Giữ nguyên thư mục assets cùng các file HTML.
-4. Khi đưa lên hosting tĩnh, tải lên toàn bộ nội dung thư mục này.
+1. Giải nén toàn bộ thư mục ZIP.
+2. Mở index.html bằng trình duyệt hiện đại.
+3. Giữ nguyên thư mục assets để CSS, JavaScript và ảnh hoạt động.
 
-CẤU TRÚC
+CÁC TRANG
 - index.html: Trang chủ
 - ap-luc.html: Cẩm nang nhận diện áp lực
 - giai-phap.html: Các giải pháp thực hành
-- cong-cu.html: Check-in cảm xúc, bản đồ áp lực, kế hoạch học, checklist
-- goc-hoc-sinh.html: Form chia sẻ và lời nhắn động viên theo chủ đề
-- tim-ho-tro.html: Nguồn hỗ trợ và tài liệu tham khảo
-- assets/style.css: Giao diện responsive
-- assets/app.js: Tương tác phía trình duyệt
-- assets/hero-students.png: Ảnh minh họa lưu cục bộ
+- cong-cu.html: Công cụ tự nhìn lại, kế hoạch học tập và check-in cảm xúc
+- goc-hoc-sinh.html: Góc chia sẻ và lời động viên tự động
+- tim-ho-tro.html: Các lựa chọn hỗ trợ và nguồn tham khảo
+- kien-thuc.html: Thư viện kiến thức và câu hỏi thường gặp
+- dat-lich.html: Chuẩn bị kết nối với người hỗ trợ (không gửi lịch thật)
+- quyen-rieng-tu.html: Quyền riêng tư và giới hạn của phiên bản
 
-LƯU Ý
-- Công cụ và lời nhắn tự động chạy phía trình duyệt; không có backend, tài khoản, cơ sở dữ liệu hay hệ thống gửi tin nhắn đến người quản trị.
-- Website không thay thế dịch vụ tư vấn tâm lý hoặc y tế.
-- Google Fonts chỉ dùng làm phông bổ sung; nếu offline, trình duyệt sẽ dùng font hệ thống.
-- Nguồn hỗ trợ tham khảo: Tổng đài quốc gia bảo vệ trẻ em 111 (miễn phí, 24/7).
+LƯU Ý QUAN TRỌNG
+Đây là website giáo dục tĩnh. Không có máy chủ, cơ sở dữ liệu, tài khoản, nhân viên trực tin nhắn hay hệ thống đặt lịch thật. Các công cụ không chẩn đoán và không thay thế tư vấn chuyên môn. Không nhập thông tin nhận diện hoặc nội dung nhạy cảm.
+
+Khi triển khai công khai, cần kiểm tra liên kết, khả năng truy cập, nội dung chuyên môn, quyền riêng tư và quy trình chuyển tiếp trường hợp cần hỗ trợ. Nếu thu thập dữ liệu thật, cần xây dựng máy chủ bảo mật, thông báo quyền riêng tư rõ ràng, quyền truy cập giới hạn và cơ chế xóa dữ liệu.
+
+Trẻ em tại Việt Nam cần hỗ trợ về bảo vệ trẻ em có thể liên hệ Tổng đài 111 (miễn phí, 24/7).
