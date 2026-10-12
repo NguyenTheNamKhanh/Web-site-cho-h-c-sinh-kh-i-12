@@ -61,3 +61,16 @@ h1,h2{letter-spacing:-.035em}
 :focus-visible{outline:3px solid #e0ae35;outline-offset:3px}
 @media(max-width:900px){.news-grid{grid-template-columns:1fr}.news-image-link img{height:260px}.news-list{display:grid;grid-template-columns:1fr 1fr}.news-item{grid-template-columns:110px minmax(0,1fr)}.news-item>img{width:110px}}
 @media(max-width:640px){.news-list{grid-template-columns:1fr}.news-item{grid-template-columns:105px minmax(0,1fr)}.news-item>img{width:105px;min-height:150px}.news-item>div{padding:13px}.news-copy{padding:19px}.news-copy h3{font-size:1.2rem}.news-footer{align-items:flex-start;flex-direction:column}.hero-photo{height:220px}.section{padding:48px 0}.topline .wrap{display:block}.topline .wrap span:last-child{display:none}}
+
+/* Student encouragement reveal */
+.message-item{scroll-margin:24px}
+.message-item.message-arrive{animation:messageRise .55s cubic-bezier(.2,.8,.2,1) both}
+.reply-arrive{position:relative;overflow:hidden;transform-origin:top left;animation:replyBloom .65s cubic-bezier(.2,.8,.2,1) .12s both}
+.reply-arrive:before{content:"";position:absolute;inset:0 auto 0 -45%;width:32%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.72),transparent);transform:skewX(-18deg);animation:replyShine 1.05s ease-out .5s both;pointer-events:none}
+.reply-heading{display:flex;align-items:center;gap:8px}
+.reply-message{animation:replyTextIn .6s ease-out .2s both;line-height:1.8}
+@keyframes messageRise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+@keyframes replyBloom{0%{opacity:0;transform:translateY(12px) scale(.97)}70%{opacity:1;transform:translateY(-2px) scale(1.01)}100%{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes replyShine{0%{left:-45%}100%{left:140%}}
+@keyframes replyTextIn{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){.message-item.message-arrive,.reply-arrive,.reply-arrive:before,.reply-message{animation:none!important}html:focus-within{scroll-behavior:auto}}
